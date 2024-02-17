@@ -20,6 +20,7 @@
 
 main{
     height:1000px;
+    
 }
 
 header {
@@ -58,15 +59,15 @@ img {
 body {
     background-color: rgba(241, 158, 241, 0);
     background-image: linear-gradient(rgb(162, 5, 224),rgb(206, 65, 235),rgb(174, 103, 255));
-
 }
+
 
 
 .aboutMeSection {
     background-color: #541f64ef;
     color: #30ec30;
     font-size: 17px;
-    
+    background-image: url('assets/space.jpg');
     
 }
 
