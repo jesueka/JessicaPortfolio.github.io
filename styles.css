@@ -1,0 +1,82 @@
+.topnav {
+    background-color: rgba(0, 0, 0, 0.699);
+    overflow: hidden;
+
+}
+
+.topnav a{
+    float: left;
+    color:rgb(11, 255, 11);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: #33e433;
+    color:rgb(0, 0, 0);
+}
+
+main{
+    height:1000px;
+}
+
+header {
+    position: sticky; top: 0;
+    display: flex;
+    background-color: rgb(133, 25, 175);
+    color:#9FFF6F;
+    
+    
+}
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Creepster";
+    
+}
+
+
+
+img {
+
+    border-radius: 50%;
+    border: 5px solid black;
+    
+  
+}
+
+.intro {
+    max-width: 500px;
+    text-align: left;
+    
+}
+
+body {
+    background-color: rgba(241, 158, 241, 0);
+    background-image: linear-gradient(rgb(162, 5, 224),rgb(206, 65, 235),rgb(174, 103, 255));
+
+}
+
+
+.aboutMeSection {
+    background-color: #541f64ef;
+    color: #30ec30;
+    font-size: 17px;
+    
+    
+}
+
+footer {
+    background-color: #a523b100;
+    height: 100px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
