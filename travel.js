@@ -1,4 +1,4 @@
-// gallery  test
+// gallery slideshow
 
 let currentIndex = 0;
 const images = document.querySelectorAll('.gallery img');

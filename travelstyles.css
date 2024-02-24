@@ -35,7 +35,7 @@ header {
    
 }
 
-/*  gallery test */
+/*  gallery sildeshow */
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Mono:wght@400;500&display=swap');
 
@@ -154,4 +154,11 @@ h1 {
 .thumbnail:hover,
 .thumbnail.active-thumbnail {
     opacity: 0.7;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
