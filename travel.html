@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="travelstyles.css">
 
 
+
+
 <title>Travel</title>
 
 </head>
@@ -25,20 +27,36 @@
 
 <header><h1>My Travel Gallery</h1></header>
     
-<!-- responsive image grid test -->
-<div class="row">
-<div class="column">
-<img src="assets/mexico1.jpg">
+<!-- slideshow gallery test -->
 
+<div class="gallery" onclick="openLightbox(event)">
+    <img src="assets/mexico1.jpg" alt="Image 1">
+    <img src="assets/mexico2.jpg" alt="Image 2">
+    <img src="assets/mexico3.jpg" alt="Image 3">
+    <img src="assets/mexico4.jpg" alt="Image 4">
 </div>
 
-<div class="column">
-    <img src="assets/mexico2.jpg">
+<!-- Lightbox container -->
+<div id="lightbox">
+    <!-- Close button -->
+    <span id="close-btn" onclick="closeLightbox()">&times;</span>
+
+    <!-- Main lightbox image -->
+    <img id="lightbox-img" src="" alt="lightbox image">
+
+    <!-- Thumbnails container -->
+    <div id="thumbnail-container">
+        <!-- Thumbnails will be added dynamically using JavaScript -->
+    </div>
+
+    <!-- Previous and Next buttons -->
+    <button id="prev-btn" onclick="changeImage(-1)">&lt; Prev</button>
+    <button id="next-btn" onclick="changeImage(1)">Next &gt;</button>
 </div>
 
 
 
-
+<script src="travel.js"></script>
 </body>
 
 
