@@ -59,7 +59,7 @@ img {
 
 body {
     background-color: rgba(29, 26, 29, 0);
-    background-image: linear-gradient(rgb(90, 8, 90),rgb(213, 139, 238),rgb(255, 255, 255));
+    background-image: linear-gradient(rgb(90, 8, 90),rgb(213, 139, 238),rgba(140, 43, 230, 0.671));
     
 }
 
